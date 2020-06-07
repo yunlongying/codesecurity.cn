@@ -1,3 +1,3 @@
 # codesecurity.cn
 
-![公众号](./source/img/gongzhonghao.png)
+![公众号](./source/_posts/new/gongzhonghao.png)
