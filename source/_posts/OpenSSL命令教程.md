@@ -34,6 +34,7 @@ OpenSSL是一个开源的项目，其由三个部分组成：
 ### 使用案例：
 
 * 加密字符串
+
 ```
 [root@localhost ~]# echo "hello,world" | openssl enc -aes128 -e -a -salt
 enter aes-128-cbc encryption password:
@@ -42,6 +43,7 @@ U2FsdGVkX1/LT+Ri9pzjjS0FIGXJLNRc8ljvZJ3hf0M=
 ```
 
 * 加解密文件
+
 ```
 [root@localhost ~]# openssl enc -des3 -e -a -in /etc/fstab -out /tmp/fstab
 enter des-ede3-cbc encryption password:
@@ -75,9 +77,11 @@ OpenSSL单向加密的子命令为dgst，其语法如下：
 
 * 单向加密除了 openssl dgst 工具还有： md5sum，sha1sum，sha224sum，sha256sum ，sha384sum，sha512sum
 
+
 ### 使用案例：
 
 * 生成指定文件的特征码
+
 ```
 [root@localhost ~]# openssl dgst -md5 /tmp/fstab 
 MD5(/tmp/fstab)= ef7b65e9d3200487dc06427934ce5c2d
@@ -107,6 +111,7 @@ OpenSSL还支持生成密码的hash离散值，其子命令为passwd，语法如
 ### 使用案例：
 
 * 生成密码的hash值
+
 ```
 [root@localhost ~]# openssl passwd -1 -salt 123456 PASSWORD
 $1$123456$KP0rRo6agiZOiJz8GMOd00
