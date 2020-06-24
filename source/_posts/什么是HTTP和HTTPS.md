@@ -2,9 +2,7 @@
 title: 什么是HTTP和HTTPS
 date: 2020-06-14 12:23:42
 tags:
-    - 产品安全知识
-    - HTTP
-    - HTTPS
+    - 安全知识
 ---
 
 # 一、HTTP

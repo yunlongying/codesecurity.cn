@@ -2,8 +2,7 @@
 title: 什么是SSL、SSH、OpenSSL、OpenSSH
 date: 2020-06-16 08:17:27
 tags:
-    - 产品安全知识
-    - SSL、SSH、OpenSSL、OpenSSH
+    - 安全知识
 ---
 
 # SSL 
