@@ -13,7 +13,7 @@ ssl是一种国际标准的加密及身份认证通信协议，您用的浏览�
 
 >SSL是Secure Socket Layer(安全套接层协议)的缩写，可以在Internet上提供秘密性传输。Netscape公司在推出第一个Web浏览器的同时，提出了SSL协议标准。其目标是保证两个应用间通信的保密性和可靠性,可在服务器端和用户端同时实现支持。已成为Internet上保密通讯的工业标准。安全套接层协议能使用户/服务器应用之间的通信不被攻击者窃听，并且始终对服务器进行认证，还可选择对用户进行认证。SSL协议要求建立在可靠的传输层协议(TCP)之上。SSL协议的优势在于它是与应用层协议独立无关的，高层的应用层协议(例如：HTTP，FTP，TELNET等)能透明地建立于SSL协议之上。SSL协议在应用层协议通信之前就已经完成加密算法、通信密钥的协商及服务器认证工作。在此之后应用层协议所传送的数据都会被加密，从而保证通信的私密性。
 
-* 说明
+* <font size=4>说明</font>
 
 SSL由从前的网景公司开发，有1,2,3三个版本，但现在只使用版本3。
 
@@ -52,27 +52,27 @@ OpenSSL是一个强大的安全套接字层密码库，囊括主要的密码算�
 >OpenSSH 是 SSH （Secure SHell） 协议的免费开源实现。SSH协议族可以用来进行远程控制， 或在计算机之间传送文件。而实现此功能的传统方式，如telnet(终端仿真协议)、 rcp ftp、 rlogin、rsh都是极为不安全的，并且会使用明文传送密码。OpenSSH提供了服务端后台程序和客户端工具，用来加密远程控制和文件传输过程中的数据，并由此来代替原来的类似服务。
 OpenSSH是SSH协议的实现，实现过程中，需要用到密钥交换算法，对称/非对称加密算法，Mac算法，随机数算法。OpenSSL提供两个库libssl和libcrypto，OpenSSH使用的是libcrypto中实现的上述算法。许多公司出于安全，效率，硬件加速等考虑，将OpenSSH porting到自己系统之后，会用自己实现的算法替换这个算法库，我确切知道的有微软和IBM。
 
-* 说明
+* <font size=4>说明</font>
 
 openssh依赖于openssl，没有openssl的话openssh就编译不过去，也运行不了。
 
-* OpenSSH发展
+* <font size=4>OpenSSH发展</font>
 
 protocol 22/tcp 安全的远程登录功能，代替不安全的telnet telnet使用超级守护进程xinet。基于DH算法做密钥交换，基于RSA或DSA算法实现身份认证。
 
-* SSH协议版本
+* <font size=4>SSH协议版本</font>
 
 v1 基于CRC-32做MAC（消息身份认证），不安全;man-in-middle
 v2 双方主机协议选择安全的MAC方式
 
-* OpenSSH架构
+* <font size=4>OpenSSH架构</font>
 
 C/S架构
 >Windows客户端：
 xshell , putty , secureCRT,sshsecure，shellclient
 S:sshd
 
-* 两种方式的用户登录认证
+* <font size=4>两种方式的用户登录认证</font>
 
 1、基于password：只要你知道自己帐号和口令，就可以登录到远程主机。所有传输的数据都会被加密，但是不能保证你正在连接的服务器就是你想连接的服务器。可能会有别的服务器在冒充真正的服务器，也就是受到“中间人”这种方式的攻击。
 >大致流程：

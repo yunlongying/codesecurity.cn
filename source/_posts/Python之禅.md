@@ -27,7 +27,7 @@ Python的出身没有 Java、Go那么万众瞩目，早期的Python，在Java、
 
 
 # Python之禅
->编写 Python 代码时就有了避繁就简的理念，最终在某一天由一个叫 Tim Peters 的人撰写了出来，即 “Python之禅”。它并非出自 Python 创始人之手，但已被官方认可为编程原则。Python之禅就是指Python的修行方法，Python之禅体现了Python的设计理念，下面我们来一起感受一下。
+>编写 Python 代码时避繁就简的理念，最终在某一天由一个叫 Tim Peters 的人撰写了出来，即 “Python之禅”。它并非出自 Python 创始人之手，但已被官方认可为编程原则。Python之禅就是指Python的修行方法，Python之禅体现了Python的设计理念，下面我们来一起感受一下。
 
 在python解释器中直接输入import this即可查看python之禅。
 
