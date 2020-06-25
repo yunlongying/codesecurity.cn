@@ -2,7 +2,7 @@
 title: OpenSSL命令教程
 date: 2020-06-16 08:53:49
 tags:
-    - 安全知识
+    - 随笔
     - OpenSSL命令教程
 ---
 
