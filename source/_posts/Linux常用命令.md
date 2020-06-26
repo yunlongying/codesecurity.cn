@@ -82,7 +82,7 @@ find /home/user1 -name \*.bin ：在目录 '/ home/user1' 中搜索带有'.bin' 
 find /usr/bin -type f -atime +100 ：搜索在过去100天内未被使用过的执行文件 
 find /usr/bin -type f -mtime -10 ：搜索在10天内被创建或者修改过的文件 
 find / -name \*.rpm -exec chmod 755 '{}' \ ：搜索以 '.rpm' 结尾的文件并定义其权限 
-find / -xdev -name \*.rpm ：搜索以 '.rpm' 结尾的文件，忽略光驱、捷盘等可移动设备 
+find / -xdev -name \*.rpm ：搜索以 '.rpm' 结尾的文件，忽略光驱、光盘等可移动设备 
 locate \*.ps ：寻找以 '.ps' 结尾的文件 - 先运行 'updatedb' 命令 
 whereis halt ：显示一个二进制文件、源码或man的位置 
 which halt ：显示一个二进制文件或可执行文件的完整路径
