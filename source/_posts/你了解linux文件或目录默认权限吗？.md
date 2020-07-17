@@ -2,7 +2,7 @@
 title: 你了解linux文件或目录默认权限吗？
 date: 2020-07-17 21:23:23
 tags:
-    - 产品安全知识
+    - 安全知识
 ---
 
 当我们登录系统之后创建一个文件总是有一个默认权限的，那么这个权限是怎么来的呢？这就不得不讲umask了。umask设置了用户创建文件的默认权限，它与chmod的效果刚好相反，umask设置的是权限“补码”，而chmod设置的是文件权限码。一般在/etc/profile、$ [HOME]/.bash_profile或$[HOME]/.profile中设置umask值。
