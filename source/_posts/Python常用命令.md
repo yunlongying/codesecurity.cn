@@ -3,7 +3,6 @@ title: Python常用命令
 date: 2020-06-26 22:22:22
 tags:
     - 随笔
-    - Python常用命令
 ---
 
 本文主要总结分享Python使用过程中的一些小技巧，重点关注Python命令，不包括Python代码相关的使用技巧。主要包括pip包管理、启动HTTP服务、格式化Json字符串等等。
